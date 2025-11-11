@@ -118,11 +118,11 @@ The environment utilizes a classic tiered design to separate administrative acce
 
 | Component | Description | Screenshot (Conceptual Link) |
 | :--- | :--- | :--- |
-| **Resource Group** | Consolidated view of all resources in `myVm_group`. | [Resource Group Screenshots](./images/Resource-Group)|
-| **Virtual Network** | `VNet-Lab` structure showing the secure Frontend and Backend subnets. | [VNet-Lab with Subnets](./images/vnet-lab) |
-| **Disk Management** | The new data disk initialized and mounted as the D: volume. | [Disk Management Console](./images/disk-management)|
-| **Azure Backup** | `VM-DB` protected by the Recovery Services Vault. | [Azure Backup Status](./images/backup)|
-| **Monitoring Alert** | CPU Alert Rule configured for performance management. | [Monitoring/Alerts Configuration](./images/monitoring) |
+| **Resource Group** | Consolidated view of all resources in `myVm_group`. | [Resource Group Screenshots](./images/resource-group/)|
+| **Virtual Network** | `VNet-Lab` structure showing the secure Frontend and Backend subnets. | [VNet-Lab with Subnets](./images/vnet-lab/) |
+| **Disk Management** | The new data disk initialized and mounted as the D: volume. | [Disk Management Console](./images/disk-management/)|
+| **Azure Backup** | `VM-DB` protected by the Recovery Services Vault. | [Azure Backup Status](./images/backup/)|
+| **Monitoring Alert** | CPU Alert Rule configured for performance management. | [Monitoring/Alerts Configuration](./images/monitoring/) |
 
 ---
 
