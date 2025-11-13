@@ -1,16 +1,16 @@
-# ☁️ Azure IaaS Project:  Personal Cloud Environment
+#  Azure IaaS Project:  Personal Cloud Environment
 [![Microsoft Azure](https://img.shields.io/badge/Cloud-Microsoft%20Azure-0078D4?style=for-the-badge&logo=azure)](https://azure.microsoft.com/)
 [![IaaS](https://img.shields.io/badge/Service-IaaS-005C94?style=for-the-badge)](https://azure.microsoft.com/overview/what-is-iaas/)
 [![PowerShell](https://img.shields.io/badge/Automation-PowerShell-5391F5?style=for-the-badge&logo=powershell)](https://docs.microsoft.com/en-us/powershell/azure/)
 
-## 🌟 Project Summary
+##  Project Summary
 This project outlines the design, deployment, and management of a **secure, two-tier personal cloud environment** using **Microsoft Azure Infrastructure as a Service (IaaS)**. The goal was to gain practical, hands-on experience across Azure's core pillars: Compute, Networking, Storage, Security, Configuration Management, and Automation.
 
 The final architecture features a protected backend server (`VM-DB`), only accessible via a hardened **Jumpbox** (`VM-Lab`). The solution includes essential configuration of Windows Server roles (IIS, DHCP, DNS), **PowerShell automation**, robust access control (IAM, SAS), and full implementation of **Azure Backup and Monitoring**.
 
 ---
 
-### 🎯 Key Objectives Achieved
+###  Key Objectives Achieved
 * Deployed and secured a **two-tier segmented network** (Frontend/Backend).
 * Configured a secure **Jumpbox** model using **NSGs** to protect backend resources.
 * Implemented **storage expansion and snapshots** for reliability. 
@@ -21,15 +21,15 @@ The final architecture features a protected backend server (`VM-DB`), only acces
 
 ---
 
-## 🏗️ Architecture Overview
+##  Architecture Overview
 
 The environment utilizes a classic tiered design to separate administrative access from sensitive data resources, enhancing security and manageability.
 
-### 🖼️ Topology Diagram (Conceptual)
+###  Topology Diagram (Conceptual)
 <img width="1199" height="713" alt="Deployment drawio" src="https://github.com/user-attachments/assets/45f26c77-627a-4c49-8a62-20452e760760" />
 
 
-### 🧩 Environment Components
+###  Environment Components
 
 | Category | Component Name(s) | Purpose & Key Detail |
 | :--- | :--- | :--- |
@@ -48,7 +48,7 @@ The environment utilizes a classic tiered design to separate administrative acce
 
 ## 🪜 Detailed Deployment and Configuration Guide
 
-### 1. 🌐 Networking Foundation and Compute Deployment
+### 1.  Networking Foundation and Compute Deployment
 **Goal:** Establish the network structure and deploy  Virtual Machines.
 
 1.  **Resource Group Creation:** Created `myVm_group` in **France Central** to contain all resources.
@@ -58,7 +58,7 @@ The environment utilizes a classic tiered design to separate administrative acce
     * **`VM-Lab` (Jumpbox):** Deployed a **Standard B1ms** Windows Server 2025 into the `Frontend` subnet. **Public IP** enabled for initial RDP access.
     * **`VM-DB` (Database Server):** Deployed into the **`Backend`** subnet with **No Public IP**, ensuring it's isolated from direct internet access.
 
-### 2. 🛡️ Network Security and Tier Isolation
+### 2.  Network Security and Tier Isolation
 **Goal:** Enforce least-privilege network access to secure the back-end VM.
 
 1.  **NSG Configuration:** Created a **Network Security Group (NSG)** and associated it with the relevant NICs/Subnets.
@@ -77,7 +77,7 @@ The environment utilizes a classic tiered design to separate administrative acce
     * **VM Lifecycle:** Used `Start-AzVM` and `Stop-AzVM` for efficient resource management.
     * **Disk Provisioning:** Scripted the process for the new data disk: `Initialize-Disk -PartitionStyle GPT`, `New-Partition`, and `Format-Volume -FileSystem NTFS -DriveLetter D`.
 
-### 4. 💾 Storage Management and Secure Access
+### 4.  Storage Management and Secure Access
 **Goal:** Expand VM storage, implement quick restore options, and configure robust storage access control.
 
 1.  **Data Disk Setup:** Attached a **10 GB Standard SSD** data disk to a VM and utilized the **PowerShell script** (from Step 3) to initialize and mount it as the **D:** volume.
@@ -87,7 +87,7 @@ The environment utilizes a classic tiered design to separate administrative acce
     * **Shared Access Signature (SAS):** Generated restricted tokens to grant temporary, granular access to specific storage resources (e.g., a single container).
     * **Access Keys:** Utilized for administrative, legacy access (documented as high-privilege).
 
-### 5. 📦 Business Continuity (BCDR) and Governance
+### 5.  Business Continuity (BCDR) and Governance
 **Goal:** Implement full backup coverage, proactive monitoring, and organizational governance.
 
 1.  **Backup Implementation:** Created a **Recovery Services Vault (`RSV-Lab`)** and enabled **Azure Backup** for the critical `VM-DB` using a daily policy.
@@ -99,7 +99,7 @@ The environment utilizes a classic tiered design to separate administrative acce
 
 ---
 
-## 📈 Skills and Technologies Mastered
+##  Skills and Technologies Mastered
 
 | Category | Core Skills Demonstrated | Technologies Used |
 | :--- | :--- | :--- |
@@ -113,7 +113,7 @@ The environment utilizes a classic tiered design to separate administrative acce
 
 ---
 
-## 🖼️ Project Visuals
+##  Project Visuals
 *To view images of components Click on their appropriate link .*
 
 | Component | Description | Screenshot (Conceptual Link) |
@@ -126,7 +126,7 @@ The environment utilizes a classic tiered design to separate administrative acce
 
 ---
 
-## 🚀 Next Projects on my Learning List
+##  Next Projects on my Learning List
 * **Project 2 (PaaS Focus):** Deploy a scalable web application using **Azure App Service** and connect it to a managed database (Azure SQL).
 * **Advanced IaC:** Translate this entire detailed deployment into repeatable Infrastructure-as-Code (IaC) templates using **Bicep** or **Terraform**.
 * **Project 3:** Create a **Static Web Portfolio** using **Azure Storage + CDN**. 
